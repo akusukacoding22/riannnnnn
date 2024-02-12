@@ -1,11 +1,11 @@
-1.Pengertian VOIP
+1.PENGERTIAN VOIP 
 
       Voice over Internet Protocol (VoIP) adalah teknologi yang memungkinkan pengiriman suara dan komunikasi data melalui jaringan internet. 
    Secara sederhana, VoIP mengubah suara menjadi data digital dan mengirimkannya melalui paket-paket data melalui jaringan internet,
    kemudian mengonversi data tersebut kembali menjadi suara di ujung penerima. Dengan menggunakan VoIP, pengguna dapat melakukan panggilan suara, video call, 
    dan berbagai bentuk komunikasi lainnya melalui infrastruktur internet, menggantikan infrastruktur telepon tradisional berbasis sirkuit. VoIP juga dikenal sebagai telepon internet atau telepon IP.
 
-2.jenis-jenis VOIP
+2.JENIS-JENIS VOIP 
 
       Ada beberapa jenis Voice over Internet Protocol (VoIP) yang digunakan untuk menyediakan layanan komunikasi suara melalui jaringan internet. Beberapa jenis VoIP yang umum meliputi:
 
@@ -42,7 +42,7 @@
   Memungkinkan perusahaan untuk menggunakan infrastruktur VoIP tanpa perlu mengganti seluruh sistem telekomunikasi.
   Setiap jenis VoIP memiliki keunggulan dan kelemahan tertentu, tergantung pada kebutuhan pengguna atau perusahaan. Pemilihan jenis VoIP akan dipengaruhi oleh infrastruktur yang sudah ada, skala operasi, dan preferensi fitur tertentu.
 
-3.Manfaat VOIP
+3.MANFAAT VOIP 
 
  > Voice over Internet Protocol (VoIP) menawarkan sejumlah manfaat yang signifikan, baik untuk pengguna individu maupun bisnis. Beberapa manfaat utama dari penggunaan VoIP termasuk:
 
@@ -82,7 +82,7 @@
    Penggunaan VoIP telah menjadi populer karena memberikan solusi komunikasi yang lebih efisien, ekonomis, dan dapat disesuaikan dengan kebutuhan pengguna.
 
 
-4.contoh VOIP
+4.CONTOH VOIP 
 
    Berikut adalah beberapa contoh penerapan Voice over Internet Protocol (VoIP) dalam kehidupan sehari-hari:
 
