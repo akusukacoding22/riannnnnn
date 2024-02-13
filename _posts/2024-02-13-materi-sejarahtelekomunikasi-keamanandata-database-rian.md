@@ -1,4 +1,4 @@
- ## SEJARAH TELEKOMUNIKASI
+  ## SEJARAH TELEKOMUNIKASI
 
         Sejarah telekomunikasi mencakup perkembangan teknologi yang memungkinkan pertukaran informasi antara individu atau entitas di lokasi yang berbeda. Berikut adalah rangkuman singkat sejarah telekomunikasi:
   Komunikasi Awal:
