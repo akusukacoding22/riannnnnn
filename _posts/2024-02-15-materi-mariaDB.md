@@ -1,0 +1,102 @@
+
+  Tutorial Penggunaan MariaDB Secara Bertahap
+  Langkah 1: Instalasi MariaDB
+  Pemasangan MariaDB pada Sistem Operasi Linux (Ubuntu):
+
+    sudo apt update
+    sudo apt install mariadb-server
+ Pemasangan MariaDB pada Sistem Operasi Windows:
+ Unduh installer MariaDB dan ikuti langkah-langkah instalasinya.
+
+ Langkah 2: Memulai dan Mengelola MariaDB Server
+ Memulai Layanan MariaDB:
+
+   sudo systemctl start mariadb
+
+ Mengecek Status Layanan MariaDB:
+
+
+sudo systemctl status mariadb
+Memastikan MariaDB Menjalankan Layanan Setiap Boot:
+
+
+   sudo systemctl enable mariadb
+Langkah 3: Keamanan Awal
+Mengamankan Instalasi MariaDB:
+
+bash
+Copy code
+sudo mysql_secure_installation
+Ikuti panduan interaktif untuk mengonfigurasi keamanan dasar.
+
+Langkah 4: Interaksi dengan MariaDB menggunakan Command Line
+Masuk ke MariaDB sebagai Pengguna Root:
+
+bash
+Copy code
+sudo mysql -u root -p
+Masukkan kata sandi yang telah Anda atur pada langkah sebelumnya.
+
+Membuat Pengguna dan Database:
+
+sql
+Copy code
+CREATE DATABASE nama_database;
+CREATE USER 'nama_pengguna'@'localhost' IDENTIFIED BY 'kata_sandi';
+GRANT ALL PRIVILEGES ON nama_database.* TO 'nama_pengguna'@'localhost';
+FLUSH PRIVILEGES;
+Langkah 5: Menggunakan MariaDB dengan Aplikasi Eksternal
+Menginstal Client MariaDB:
+
+bash
+Copy code
+sudo apt install mariadb-client   # pada sistem Linux (Ubuntu)
+Terhubung ke MariaDB Server dari Terminal:
+
+bash
+Copy code
+mysql -u nama_pengguna -p -h localhost
+Masukkan kata sandi pengguna yang telah Anda buat.
+
+Langkah 6: Pengelolaan Database dan Tabel
+Membuat Tabel:
+
+sql
+Copy code
+USE nama_database;
+CREATE TABLE nama_tabel (
+    id INT PRIMARY KEY,
+    nama VARCHAR(255),
+    email VARCHAR(255)
+);
+Menambahkan Data ke Tabel:
+
+sql
+Copy code
+INSERT INTO nama_tabel (id, nama, email) VALUES (1, 'John Doe', 'john@example.com');
+Mengambil Data dari Tabel:
+
+sql
+Copy code
+SELECT * FROM nama_tabel;
+Mengupdate Data dalam Tabel:
+
+sql
+Copy code
+UPDATE nama_tabel SET email='john.doe@example.com' WHERE id=1;
+Menghapus Data dari Tabel:
+
+sql
+Copy code
+DELETE FROM nama_tabel WHERE id=1;
+Menghapus Tabel:
+
+sql
+Copy code
+DROP TABLE nama_tabel;
+Tutorial ini memberikan langkah-langkah dasar untuk menggunakan MariaDB secara bertahap. Pastikan untuk selalu menggantikan nilai-nilai seperti nama_database, nama_pengguna, dan lainnya sesuai dengan kebutuhan Anda.
+
+
+
+
+
