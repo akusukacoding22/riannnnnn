@@ -5,6 +5,7 @@
 
     sudo apt update
     sudo apt install mariadb-server
+
  Pemasangan MariaDB pada Sistem Operasi Windows:
  Unduh installer MariaDB dan ikuti langkah-langkah instalasinya.
 
@@ -12,9 +13,11 @@
  Memulai Layanan MariaDB:
 
     sudo systemctl start mariadb
+
  Mengecek Status Layanan MariaDB:
    
     sudo systemctl status mariadb
+
 Memastikan MariaDB Menjalankan Layanan Setiap Boot:
     sudo systemctl enable mariadb
 
@@ -22,12 +25,14 @@ Langkah 3: Keamanan Awal
 Mengamankan Instalasi MariaDB:
  
     sudo mysql_secure_installation
+
 Ikuti panduan interaktif untuk mengonfigurasi keamanan dasar.
 
 Langkah 4: Interaksi dengan MariaDB menggunakan Command Line
 Masuk ke MariaDB sebagai Pengguna Root:
  
     sudo mysql -u root -p
+
 Masukkan kata sandi yang telah Anda atur pada langkah sebelumnya.
 Membuat Pengguna dan Database:
   
@@ -40,9 +45,11 @@ Langkah 5: Menggunakan MariaDB dengan Aplikasi Eksternal
 Menginstal Client MariaDB:
    
     sudo apt install mariadb-client   # pada sistem Linux (Ubuntu)
+
 Terhubung ke MariaDB Server dari Terminal:
    
     mysql -u nama_pengguna -p -h localhost
+
 Masukkan kata sandi pengguna yang telah Anda buat.
 
 Langkah 6: Pengelolaan Database dan Tabel
@@ -54,6 +61,7 @@ Membuat Tabel:
    nama VARCHAR(255),
    email VARCHAR(255)
  );
+
 Menambahkan Data ke Tabel:
  
    INSERT INTO nama_tabel (id, nama, email) VALUES (1, 'John Doe', 'john@example.com');
@@ -61,15 +69,19 @@ Menambahkan Data ke Tabel:
 Mengambil Data dari Tabel:
  
    SELECT * FROM nama_tabel;
+
 Mengupdate Data dalam Tabel:
  
    UPDATE nama_tabel SET email='john.doe@example.com' WHERE id=1;
+
 Menghapus Data dari Tabel:
  
    DELETE FROM nama_tabel WHERE id=1;
+
 Menghapus Tabel:
  
    DROP TABLE nama_tabel;
+
 Tutorial ini memberikan langkah-langkah dasar untuk menggunakan MariaDB secara bertahap. Pastikan untuk selalu menggantikan nilai-nilai seperti nama_database, nama_pengguna, dan lainnya sesuai dengan kebutuhan Anda.
 
 
