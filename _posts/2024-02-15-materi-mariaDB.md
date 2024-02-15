@@ -44,43 +44,43 @@ Membuat Pengguna dan Database:
 Langkah 5: Menggunakan MariaDB dengan Aplikasi Eksternal
 Menginstal Client MariaDB:
    
-    sudo apt install mariadb-client   # pada sistem Linux (Ubuntu)
+   sudo apt install mariadb-client   # pada sistem Linux (Ubuntu)
 
 Terhubung ke MariaDB Server dari Terminal:
    
-    mysql -u nama_pengguna -p -h localhost
+   mysql -u nama_pengguna -p -h localhost
 
 Masukkan kata sandi pengguna yang telah Anda buat.
 
 Langkah 6: Pengelolaan Database dan Tabel
 Membuat Tabel:
   
-   USE nama_database;
-   CREATE TABLE nama_tabel (
-   id INT PRIMARY KEY,
-   nama VARCHAR(255),
-   email VARCHAR(255)
+  USE nama_database;
+  CREATE TABLE nama_tabel (
+  id INT PRIMARY KEY,
+  nama VARCHAR(255),
+  email VARCHAR(255)
  );
 
 Menambahkan Data ke Tabel:
  
-   INSERT INTO nama_tabel (id, nama, email) VALUES (1, 'John Doe', 'john@example.com');
+  INSERT INTO nama_tabel (id, nama, email) VALUES (1, 'John Doe', 'john@example.com');
 
 Mengambil Data dari Tabel:
  
-   SELECT * FROM nama_tabel;
+  SELECT * FROM nama_tabel;
 
 Mengupdate Data dalam Tabel:
  
-   UPDATE nama_tabel SET email='john.doe@example.com' WHERE id=1;
+  UPDATE nama_tabel SET email='john.doe@example.com' WHERE id=1;
 
 Menghapus Data dari Tabel:
  
-   DELETE FROM nama_tabel WHERE id=1;
+  DELETE FROM nama_tabel WHERE id=1;
 
 Menghapus Tabel:
  
-   DROP TABLE nama_tabel;
+  DROP TABLE nama_tabel;
 
 Tutorial ini memberikan langkah-langkah dasar untuk menggunakan MariaDB secara bertahap. Pastikan untuk selalu menggantikan nilai-nilai seperti nama_database, nama_pengguna, dan lainnya sesuai dengan kebutuhan Anda.
 
