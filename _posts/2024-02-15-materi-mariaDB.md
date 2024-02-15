@@ -1,5 +1,7 @@
 # Tutorial Penggunaan MariaDB Secara Bertahap
+
  #### Langkah 1: Instalasi MariaDB
+ 
  #### Pemasangan MariaDB pada Sistem Operasi Linux (Ubuntu):
 
       sudo apt update
