@@ -21,8 +21,8 @@
 title: di sini tempat semua tugas saya
 email: gansrian587@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-"Temukan inspirasi tak terbatas dan panduan praktis di situs kami. Dari tutorial teknologi hingga kisah perjalanan",
-kami hadir untuk memotivasi dan menghibur. Selamat datang di tempat di mana pengetahuan bertemu kreativitas!"
+   Temukan inspirasi tak terbatas dan panduan praktis di situs kami. Dari tutorial teknologi hingga kisah perjalanan,
+   kami hadir untuk memotivasi dan menghibur. Selamat datang di tempat di mana pengetahuan bertemu kreativitas.
 baseurl: "riannnnnn" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
