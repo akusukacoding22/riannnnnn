@@ -87,6 +87,7 @@
 Tutorial ini memberikan langkah-langkah dasar untuk menggunakan MariaDB secara bertahap. Pastikan untuk selalu menggantikan nilai-nilai seperti nama_database, nama_pengguna, dan lainnya sesuai dengan kebutuhan Anda.
 
 
+![image](https://github.com/akusukacoding22/riannnnnn/assets/156275570/3455f6aa-38ba-4135-8234-ff94536a7663)
 
 
 
