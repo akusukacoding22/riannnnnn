@@ -26,19 +26,19 @@ Instalasi FreeRADIUS di Ubuntu:
 
    sudo service freeradius status
    
-Pastikan tidak ada kesalahan dan layanan berjalan dengan baik.
+   Pastikan tidak ada kesalahan dan layanan berjalan dengan baik.
 
 3. Uji Coba Koneksi:
    Gunakan perintah radtest untuk menguji koneksi ke server RADIUS:
 
 
-radtest username password localhost 0 testing123
+   radtest username password localhost 0 testing123
 
-Pastikan untuk mengganti username dan password sesuai kebutuhan.
+   Pastikan untuk mengganti username dan password sesuai kebutuhan.
 
-Jika Anda menggunakan distribusi Linux lain atau sistem operasi yang berbeda, proses instalasi mungkin sedikit berbeda. Selalu rujuk dokumentasi resmi dan panduan pengguna untuk distribusi atau sistem operasi yang Anda gunakan.
+   Jika Anda menggunakan distribusi Linux lain atau sistem operasi yang berbeda, proses instalasi mungkin sedikit berbeda. Selalu rujuk dokumentasi resmi dan panduan pengguna untuk distribusi        atau sistem operasi yang Anda gunakan.
 
-Selain itu, jika Anda membutuhkan integrasi dengan layanan direktori seperti LDAP atau Active Directory, Anda perlu mengonfigurasi parameter tambahan sesuai kebutuhan Anda. Pastikan untuk merujuk dokumentasi FreeRADIUS dan sumber daya online lainnya untuk informasi lebih lanjut dan dukungan.
+   Selain itu, jika Anda membutuhkan integrasi dengan layanan direktori seperti LDAP atau Active Directory, Anda perlu mengonfigurasi parameter tambahan sesuai kebutuhan Anda. Pastikan untuk         merujuk dokumentasi FreeRADIUS dan sumber daya online lainnya untuk informasi lebih lanjut dan dukungan.
 
 
 
