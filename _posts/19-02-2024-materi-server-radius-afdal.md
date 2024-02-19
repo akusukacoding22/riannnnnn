@@ -1,4 +1,4 @@
-Instalasi FreeRADIUS di Ubuntu:
+##Instalasi FreeRADIUS di Ubuntu:
 1. Buka Terminal:
    Buka terminal pada sistem Linux Anda.
 
