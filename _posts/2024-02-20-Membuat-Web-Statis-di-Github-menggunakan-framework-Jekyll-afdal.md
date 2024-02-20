@@ -30,7 +30,7 @@
    Sesuaikan konten situs web sesuai kebutuhan Anda. Template dan struktur umumnya berada di folder _layouts dan _posts.
 6. ### Konfigurasi:
 
-  Jelajahi dan edit file _config.yml untuk mengonfigurasi pengaturan situs, seperti judul, deskripsi, dan pengaturan lainnya.
+   Jelajahi dan edit file _config.yml untuk mengonfigurasi pengaturan situs, seperti judul, deskripsi, dan pengaturan lainnya.
   
 7. ### Commit dan Push ke GitHub:
 
