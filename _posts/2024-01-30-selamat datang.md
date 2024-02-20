@@ -3,7 +3,10 @@ layout: post
 title:  "geprek!"
 date:   2024-01-23 13:49:42 +0800
 categories: jekyll 
-![makanan paling enak di dunia](/assets/images/ayam geprek.jpg)
+
+![image](https://github.com/akusukacoding22/riannnnnn/assets/156275570/74bb22fb-0c7a-4c02-accc-3fb43fa68b22)
+
+ayam geprek enak banget
 
 
 
