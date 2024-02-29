@@ -19,7 +19,9 @@ Untuk menginstal FreeRADIUS di Ubuntu, berikut adalah langkah-langkah umumnya:
     Ikuti petunjuk pada layar untuk menyelesaikan instalasi.
 
 ### 3. Konfigurasi:
-    Konfigurasi FreeRADIUS terletak di direktori /etc/freeradius/. File konfigurasi utama adalah radiusd.conf. Juga, konfigurasi untuk modul-modul tertentu dapat ditemukan di direktori mods-available/. Anda dapat mengonfigurasi parameter seperti koneksi ke basis data, opsi otentikasi, dan lainnya.
+    Buka atau buat berkas konfigurasi pengguna, misalnya /etc/freeradius/3.0/users:
+
+    sudo nano /etc/freeradius/3.0/users.
 
 ### 4. Mulai Layanan FreeRADIUS:
     Setelah konfigurasi selesai, mulai layanan FreeRADIUS.
