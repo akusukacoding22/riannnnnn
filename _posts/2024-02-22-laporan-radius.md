@@ -1,16 +1,22 @@
 ## KODE KODE UNTUK FREE RADIUS 
 
- 1  sudo apt update
- 
- 2  sudo apt install freeradius
- 
- 3  sudo service freeradius status
- 
- 4  sudo service freeradius start
- 
- 5  sudo nano etc/freeradius/user
+      1.  sudo apt update
 
- 6  radtest username password localhost 0 testing 123
+  
+      2.  sudo apt install freeradius
+
+ 
+      3.  sudo service freeradius status
+
+ 
+      4.  sudo service freeradius start
+
+ 
+      5.  sudo nano etc/freeradius/user
+
+
+      6.  radtest username password localhost 0 testing 123
+
 
 
    
