@@ -107,7 +107,7 @@ systemlogginrules+prefix=akses-kerouteraction=diskapplayok
 ### 25. Pengujian client pada jaringan LAN 
 klik pada keyboard anda windows+Rketik pada open=cmd klik ok
 
-# B. freeradius
+# B. FREERADIUS
 ## update
 sudo apt update
 ## install aplikasi
