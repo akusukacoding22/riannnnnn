@@ -109,4 +109,10 @@ klik pada keyboard anda windows+Rketik pada open=cmd klik ok
 
 ## Gambar hasil kegiatan:
 
-![Capture](https://github.com/akusukacoding22/riannnnnn/assets/156275570/4f02dd5b-b5b6-4def-91ba-bd594809db42)
+### Gambar 1
+![Capture](https://github.com/akusukacoding22/riannnnnn/assets/156275570/674c04cd-b06f-49a7-9836-2691a193f1f6)
+
+
+### Gambar 2
+![Screenshot_2024-03-07-15-04-10-518_com android settings](https://github.com/akusukacoding22/riannnnnn/assets/156275570/2581d45c-d036-41a6-8f8a-df875a015e9c)
+
