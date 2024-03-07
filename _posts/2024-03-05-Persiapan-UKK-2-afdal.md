@@ -106,3 +106,7 @@ systemlogginrules+prefix=akses-kerouteraction=diskapplayok
 
 ### 25. Pengujian client pada jaringan LAN 
 klik pada keyboard anda windows+Rketik pada open=cmd klik ok
+
+## Gambar hasil kegiatan:
+
+![Capture](https://github.com/akusukacoding22/riannnnnn/assets/156275570/4f02dd5b-b5b6-4def-91ba-bd594809db42)
