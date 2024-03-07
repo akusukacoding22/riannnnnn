@@ -1,4 +1,4 @@
-# B. FREERADIUS
+# FREERADIUS
 ## update
 sudo apt update
 ## install aplikasi
