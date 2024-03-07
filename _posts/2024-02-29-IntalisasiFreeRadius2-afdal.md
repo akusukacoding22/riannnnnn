@@ -6,6 +6,7 @@ sudo apt install freeradius freeradius-mysql freeradius-utils
 From <https://kifarunix.com/install-freeradius-with-daloradius-on-ubuntu-20-04/?expand_article=1>
 ## cek insalasi
 sudo systemctl stop freeradius
+
 sudo freeradius -X
 ### pastikan
 Ready to process requests
