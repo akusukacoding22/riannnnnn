@@ -116,3 +116,8 @@ klik pada keyboard anda windows+Rketik pada open=cmd klik ok
 ### Gambar 2
 ![Screenshot_2024-03-07-15-04-10-518_com android settings](https://github.com/akusukacoding22/riannnnnn/assets/156275570/2581d45c-d036-41a6-8f8a-df875a015e9c)
 
+
+### Gambar 3
+![afdal  jpg](https://github.com/akusukacoding22/riannnnnn/assets/156275570/e04430ad-d268-4e7d-849c-27dbfaee9651)
+
+
